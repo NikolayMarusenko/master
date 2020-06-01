@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  my-app-master:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-01T10:36:58.4900392+03:00"
+    dependencies:
+    - name: my-app
+      repository: https://nikolaymarusenko.github.io/slave/
+      version: 0.1.0
+    description: A Helm chart for Kubernetes
+    digest: 2429f469920e2c894f0c94f7cc3a29f1d379243fde1976bfb2f23b5992424ac1
+    name: my-app-master
+    type: application
+    urls:
+    - https://github.com/NikolayMarusenko/master/releases/download/1.0.0/my-app-master-0.2.0.tgz
+    version: 0.2.0
+generated: "2020-06-01T10:36:58.4880592+03:00"
